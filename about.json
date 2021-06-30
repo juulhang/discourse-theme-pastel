@@ -1,5 +1,21 @@
 {
   "name": "pastel",
   "about_url": "https://github.com/juulhang/discourse-theme-pastel/blob/main/about.json",
-  "license_url": "https://github.com/GitHubUsername/my-first-remote-theme/blob/master/LICENSE"
+  "license_url": "https://github.com/GitHubUsername/my-first-remote-theme/blob/master/LICENSE",
+  "assets": {
+  },
+  "color_schemes": {
+    "Default": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "d3b3ff",
+      "quaternary": "4581e5",
+      "header_background": "edcdff",
+      "header_primary": "ffffff",
+      "highlight": "ecec70",
+      "danger": "ff5959",
+      "success": "93ff93",
+      "love": "ff8ba6"
+    }
+  } 
 }
