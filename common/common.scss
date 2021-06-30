@@ -33,6 +33,10 @@ body {
   height: 5em;
 }
 
+#main-outlet {
+  padding-top: 6.5em;
+}
+
 .d-icon {
     color: var(--primary-low-mid);
 }
@@ -42,6 +46,19 @@ body {
     .select-kit-header {
       border-radius: .9em;
       background-color: var(--header_background);
+	  }
+	    &.category-drop,
+    &.tag-drop {
+      .select-kit-body {
+        border-radius: .9em;
+        background-color: var(--header_background);
+  
+        .select-kit-collection {
+          background-color: var(--header_background);
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+       }
+      }
     }
   }
 }
