@@ -37,3 +37,22 @@ body {
       "success": "70DB82",
       "love": "FC94CB"
     }
+
+.d-header {
+  box-shadow: none;
+  border-bottom: 1px solid var(--primary-low-mid);
+  height: 5em;
+}
+
+.d-icon {
+    color: var(--primary-low-mid);
+  }
+
+.navigation-container {
+  .select-kit.combo-box {
+    .select-kit-header {
+      border-radius: .9em;
+      background-color: var(--header_background);
+    }
+  }
+}
